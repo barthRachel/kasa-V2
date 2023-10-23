@@ -1,0 +1,52 @@
+/* Desktop */
+header {
+    margin: 45px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerContainer a img {
+    height: 68px;
+}
+
+nav a:nth-child(2) {
+    margin-left: 57px;
+}
+
+.navigationLink {
+    text-decoration : none;
+    font-size : 24px;
+}
+
+.navigationOn {
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.navigationLink:hover {
+    text-decoration : underline;
+}
+
+/* Mobile */
+@media(max-width:500px){   
+    header {
+        margin: 20px 20px 0px 20px;
+    }
+
+    .headerContainer a img {
+        height: 47px;
+    }
+
+    .navigationLink, .navigationOn {
+        font-size : 12px;
+    }
+}

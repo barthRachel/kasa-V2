@@ -1,0 +1,46 @@
+.mainError {
+    display: flex;
+    justify-content: center;
+}
+
+.errorContainer {
+    width: 1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /*height: calc(100vh - 311px);*/
+    height: 650px;
+}
+
+.errorContainer img {
+    width: 597px;
+}
+
+.errorContainer h1 {
+    font-size: 36px;
+}
+
+.errorContainer a {
+    font-size: 18px;
+}
+
+@media (max-width:768px) {
+    .errorContainer {
+        height: calc(100vh - 295px);
+    }
+
+    .errorContainer img {
+        width: 198px;
+    }
+
+    .errorContainer h1 {
+        font-size: 18px;
+        text-align: center;
+        width: 260px;
+    }
+    
+    .errorContainer a {
+        font-size: 14px;
+    }
+}

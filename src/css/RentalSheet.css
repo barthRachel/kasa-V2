@@ -1,0 +1,145 @@
+.mainRentalSheet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rentalSheetContainer {
+    margin: 50px 0;
+    max-width: 1240px;
+    width: 100%;
+}
+
+.rentalSheetInfosContainer {
+    width: 100%;
+}
+ 
+.infosAndHostContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.titleContainer {
+    margin-bottom: 20px;
+}
+
+.titleContainer h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+
+.titleContainer p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.rentalSheetTag {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rentalSheetTag li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 0px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 25px;
+    color: white;
+}
+
+.hostContainer {
+    display: flex;
+}
+
+.hostName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-right: 10px;
+}
+
+.hostName p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+
+.hostProfilePicture img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.descriptionAndEquipmentsContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descriptionAndEquipmentsContainer div {
+    width: 582px;
+}
+
+.equimentContainer {
+    list-style-type: none;
+    padding: 0;
+}
+
+@media (max-width:768px) {
+    .mainRentalSheet {
+        margin: 0 20px;
+    }
+
+    .rentalSheetContainer {
+        margin: 27px 0;
+    }
+
+    .rentalSheetInfosContainer {
+        margin-bottom: 20px;
+    }
+
+    .infosAndHostContainer {
+        margin-top: 15px;
+        flex-direction: column;
+    }
+
+    .titleContainer {
+        margin-bottom: 10px;
+    }
+
+    .titleContainer h1 {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .titleContainer p {
+        font-size: 14px;
+    }
+
+    .hostAndRateContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    .descriptionAndEquipmentsContainer {
+        margin-top: 15px;
+        display: block;
+    }
+
+    .descriptionAndEquipmentsContainer div {
+        width: 100%;
+    }
+}
