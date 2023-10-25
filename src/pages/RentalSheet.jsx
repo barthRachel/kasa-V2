@@ -1,3 +1,4 @@
+// Page de logement
 import '../css/RentalSheet.css';
 import rentalInfos from '../data/logements.json';
 import React from 'react';
@@ -8,15 +9,22 @@ import Error from '../components/Error';
 import { Navigate } from "react-router-dom";
 
 function RentalSheet() {
+    // On récupère l'id du logement passé en paramètre dans la barre de recherche
     const id = window.location.href.split('/')[window.location.href.split('/').length-1];
+    // On regarde si l'id du logement existe réellement dans la liste de logement
     const isInfos = rentalInfos.findIndex(rental => rental.id === id);
-
+    
+    // Si l'id n'existe pas, on va sur la page d'erreur, sinon on continue
     if(isInfos === -1) {
         return(
             <Navigate to="/error_404" element={<Error />} />
         )
     }
 
+    // On récupère les informations du logement
+    // [infos] = toutes les informations / [tagList] = la liste des tags
+    // [hostFirstName & hostLastName] = prénom & nom de l'hôte
+    // [equipmentsList] = liste des équipements 
     const infos = rentalInfos[isInfos];
 
     const tagList = infos.tags;
@@ -26,7 +34,7 @@ function RentalSheet() {
 
     const equimentsList = infos.equipments;
     
-    
+    // On change le titre de l'onglet pour y mettre le titre du logement
     document.title ="Kasa | " + infos.title;
 
     return(

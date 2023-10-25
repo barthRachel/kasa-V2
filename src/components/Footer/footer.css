@@ -1,3 +1,4 @@
+/*** Desktop ***/
 footer {
     background-color: black;
     color: white;
@@ -30,6 +31,7 @@ footer .footerContainer .mobileCopyright {
     display: none;
 }
 
+/*** Mobile ***/
 @media (max-width:768px) {
     footer .footerContainer {
         margin: 66px 0 58px 0;

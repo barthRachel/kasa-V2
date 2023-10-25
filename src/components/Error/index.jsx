@@ -1,3 +1,4 @@
+// Composant Error pour générer les erreurs
 import './error.css';
 import React from 'react';
 import { Link } from 'react-router-dom';

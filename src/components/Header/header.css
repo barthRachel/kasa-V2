@@ -1,4 +1,4 @@
-/* Desktop */
+/*** Desktop ***/
 header {
     margin: 45px 20px 0px 20px;
     display: flex;
@@ -36,7 +36,7 @@ nav a:nth-child(2) {
     text-decoration : underline;
 }
 
-/* Mobile */
+/*** Mobile ***/
 @media(max-width:500px){   
     header {
         margin: 20px 20px 0px 20px;

@@ -1,3 +1,4 @@
+// Composant Footer pour toutes les pages
 import './footer.css';
 import logo from '../../assets/kasa_footer.png';
 

@@ -1,3 +1,4 @@
+/*** Desktop ***/
 .collapseContainer{
     margin-bottom: 30px;
 }
@@ -50,6 +51,7 @@
     border-radius: 5px;
 }
 
+/*** Mobile ***/
 @media (max-width:768px) {
     .collapseContainer {
         margin-bottom: 20px;

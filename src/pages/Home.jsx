@@ -1,9 +1,11 @@
+// Page d'accueil
 import '../css/Home.css';
 import Banner from '../components/Banner';
 import rentalInfos from '../data/logements.json';
 import Card from '../components/Card';
 
 function Home() {
+    // On change le titre de l'onglet
     document.title = "Kasa | Accueil";
     
     return(

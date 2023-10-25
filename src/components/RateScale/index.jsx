@@ -1,3 +1,4 @@
+// Composant RateScale - pour les notations - pour la page de Logement
 import './rateScale.css';
 import active from '../../assets/activeStar.png';
 import inactive from '../../assets/inactiveStar.png';

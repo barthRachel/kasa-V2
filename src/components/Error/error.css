@@ -1,3 +1,4 @@
+/*** Desktop ***/
 .mainError {
     display: flex;
     justify-content: center;
@@ -9,7 +10,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    /*height: calc(100vh - 311px);*/
     height: 650px;
 }
 
@@ -25,6 +25,7 @@
     font-size: 18px;
 }
 
+/*** Mobile ***/
 @media (max-width:768px) {
     .errorContainer {
         height: calc(100vh - 295px);

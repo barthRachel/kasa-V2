@@ -1,17 +1,17 @@
+// Composant Collapse pour la page A Prospos et la page de Logement
 import './collapse.css';
 import React, { useRef, useState } from 'react';
 import chevron from '../../assets/chevron.png';
 
 function Collapse({title, texte}) {
-    console.log(title)
-    console.log(texte)
-
+    // Création du hook pour savoir si le collapse est ouvert ou fermé
     const [open, setOpen] = useState(false);
 
     const toggle = () => {
         setOpen(!open);
     }
 
+    // Création du hook pour récupérer la taille du texte de la collapse
     const collapseTexteRef = useRef();
 
     return(
