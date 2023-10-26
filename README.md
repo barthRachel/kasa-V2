@@ -3,6 +3,7 @@
 ### Réalisation - "Développez une application Web avec React et React Router"
 
 - [Dossier src du repo](https://github.com/barthRachel/kasa-V2)
+- [Site live](https://653a32ad86fe840172bf6f52--melodious-starlight-8ae3d1.netlify.app/)
 
 ---
 
