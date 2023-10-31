@@ -92,7 +92,8 @@
 }
 
 .descriptionAndEquipmentsContainer div {
-    width: 582px;
+    max-width: 582px;
+    width: 100%;
 }
 
 .equimentContainer {
